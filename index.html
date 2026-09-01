@@ -2,14 +2,14 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>Shilly's Birthday Wishlist · 23.09.2026</title>
+  <title>Shilly's Birthday Wishlist · Dream Edition</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style>
     body {
       margin: 0;
       font-family: "Helvetica Neue", Arial, sans-serif;
-      background: url('c7132565420abd7f8e608b7f0af98763.jpg') no-repeat center center fixed;
+      background: url('WhatsApp Image 2026-09-01 at 22.31.16.jpeg') no-repeat center center fixed;
       background-size: cover;
       color: #ffffff;
     }
@@ -19,8 +19,8 @@
       position: fixed;
       top: 0; left: 0;
       width: 100%; height: 100%;
-      background: rgba(0,0,0,0.65);
-      backdrop-filter: blur(2px);
+      background: rgba(0,0,0,0.60);
+      backdrop-filter: blur(6px);
       z-index: -1;
     }
 
@@ -32,43 +32,53 @@
 
     .header {
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 50px;
     }
 
     .title {
-      font-size: 2.4rem;
+      font-size: 2.8rem;
       letter-spacing: 0.05em;
       text-transform: uppercase;
       font-weight: 700;
     }
 
     .subtitle {
-      font-size: 1rem;
+      font-size: 1.1rem;
       color: #ff2e4d;
-      margin-top: 8px;
+      margin-top: 10px;
       letter-spacing: 0.08em;
     }
 
     .tagline {
-      margin-top: 6px;
-      font-size: 0.9rem;
+      margin-top: 10px;
+      font-size: 0.95rem;
       color: #cccccc;
       letter-spacing: 0.1em;
     }
 
     .card {
-      background: rgba(0,0,0,0.55);
-      border-radius: 16px;
-      padding: 28px 24px;
+      background: rgba(0,0,0,0.45);
+      border-radius: 20px;
+      padding: 30px 26px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-      backdrop-filter: blur(6px);
-      margin-bottom: 40px;
+      backdrop-filter: blur(8px);
+      margin-bottom: 50px;
+    }
+
+    .section-title {
+      margin-bottom: 20px;
+      font-size: 1.4rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #ff2e4d;
     }
 
     .text-block {
-      line-height: 1.7;
-      font-size: 1rem;
-      margin-bottom: 18px;
+      line-height: 1.8;
+      font-size: 1.05rem;
+      margin-bottom: 20px;
+      color: #e6e6e6;
     }
 
     .highlight {
@@ -76,18 +86,8 @@
       font-weight: 600;
     }
 
-    .section-title {
-      margin-top: 10px;
-      margin-bottom: 20px;
-      font-size: 1.2rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: #ff2e4d;
-    }
-
     .image-break {
-      margin: 60px 0;
+      margin: 70px 0;
       text-align: center;
     }
 
@@ -95,7 +95,7 @@
       width: 100%;
       height: 3px;
       background: #ff2e4d;
-      margin: 20px 0;
+      margin: 25px 0;
       border-radius: 2px;
     }
 
@@ -105,52 +105,52 @@
       max-width: 900px;
       margin: 0 auto;
       overflow: hidden;
-      border-radius: 20px;
+      border-radius: 22px;
     }
 
     .blur-image {
       width: 100%;
       height: auto;
-      filter: blur(6px) brightness(0.75);
+      filter: blur(4px) brightness(0.85);
       transform: scale(1.05);
     }
 
     .tiles {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 18px;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 22px;
       margin-top: 20px;
     }
 
     .tile {
-      background: rgba(0,0,0,0.45);
-      border-radius: 14px;
-      padding: 18px 16px;
-      font-size: 0.95rem;
-      line-height: 1.5;
+      background: rgba(0,0,0,0.40);
+      border-radius: 16px;
+      padding: 20px 18px;
+      font-size: 1rem;
+      line-height: 1.6;
       border: 1px solid rgba(255,255,255,0.1);
     }
 
     .tile-title {
       font-weight: 600;
-      margin-bottom: 6px;
+      margin-bottom: 8px;
       color: #ff2e4d;
-      font-size: 1.05rem;
+      font-size: 1.1rem;
     }
 
     .ticket {
-      background: rgba(0,0,0,0.55);
-      border-radius: 20px;
-      padding: 30px 24px;
-      margin-top: 50px;
+      background: rgba(0,0,0,0.50);
+      border-radius: 22px;
+      padding: 35px 28px;
+      margin-top: 60px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-      backdrop-filter: blur(6px);
+      backdrop-filter: blur(8px);
     }
 
     .ticket-title {
-      font-size: 1.4rem;
+      font-size: 1.5rem;
       font-weight: 700;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
       text-transform: uppercase;
       letter-spacing: 0.08em;
       color: #ff2e4d;
@@ -160,15 +160,15 @@
     .ticket-row {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 14px;
-      font-size: 0.95rem;
+      margin-bottom: 16px;
+      font-size: 1rem;
     }
 
     .ticket-label {
       color: #aaaaaa;
       text-transform: uppercase;
       letter-spacing: 0.08em;
-      font-size: 0.8rem;
+      font-size: 0.85rem;
     }
 
     .ticket-value {
@@ -178,9 +178,9 @@
 
     .footer {
       text-align: center;
-      margin-top: 40px;
-      font-size: 0.85rem;
-      color: #aaaaaa;
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #cccccc;
     }
   </style>
 </head>
@@ -198,24 +198,14 @@
       <h2 class="section-title">The Dream</h2>
 
       <p class="text-block">
-        Ci sono regali che si scartano e poi svaniscono, e altri che restano per sempre:
-        quelli fatti di <span class="highlight">emozioni</span>, di attimi che ti accendono il cuore,
-        di esperienze che diventano ricordi da portare con sé.
+        Ci sono sogni che non si comprano, si costruiscono.  
+        Mattoncino dopo mattoncino, emozione dopo emozione.  
+        Questo è il mio: <span class="highlight">vivere il World Tour 2027</span>.
       </p>
 
       <p class="text-block">
-        Per il mio compleanno ho scelto proprio questo: <span class="highlight">un momento da vivere</span>,
-        non un oggetto da possedere. Il mio sogno è seguire gli Stray Kids nel loro World Tour 2027
-        e trasformare un desiderio in una storia da raccontare.
-      </p>
-
-      <p class="text-block">
-        La mia wishlist non è una lista di cose materiali, ma di piccoli mattoncini che costruiscono un viaggio:
-        un tratto di volo, una notte in hotel, un passo in più verso un palco che per me significa <span class="highlight">casa</span>.
-      </p>
-
-      <p class="text-block">
-        Ogni contributo, anche minuscolo, sarebbe un frammento di quella magia condivisa.
+        Non è una wishlist di oggetti, ma di momenti.  
+        Di luci, di palco, di musica, di cuore.
       </p>
     </main>
 
@@ -223,7 +213,7 @@
       <div class="red-line"></div>
 
       <div class="image-wrapper">
-        <img src="2ef593c69c7ea6f9bdfbb62f3084cbfb.jpg" alt="Stage Moment" class="blur-image">
+        <img src="WhatsApp Image 2026-09-01 at 22.31.17.jpeg" alt="Stage Moment" class="blur-image">
       </div>
 
       <div class="red-line"></div>
